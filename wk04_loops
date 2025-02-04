@@ -16,11 +16,21 @@ while payment < 0:
 print(f"The amount is ${payment:.2f}")
 
 
-#Keep Looping while number is less than 10
+#Keep Looping while number is less than 0
 number = float(input("What is your number?: "))
-while number <= 10
-	print("Sorry the number must be greater than 10.")
+while number <= 0
+	print("Sorry, the number must be positive.")
 	number = input("What is your number?: ")
 print("Loop finished")
+
+#Child asking for candy Loop
+
+candy = input("Can I have some candy? YES or NO: ")
+candy_std = candy.lower()
+
+while candy.std != "yes"
+	input("Can I have some candy? YES or NO: ")
+print("Thank you, mom and dad for the candy")
+
 
 	
